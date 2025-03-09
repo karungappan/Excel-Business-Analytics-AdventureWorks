@@ -1,7 +1,5 @@
 # Excel-Business-Analytics-AdventureWorks
 
-# AdventureWorks Data Analysis using Excel
-
 ## Project Description
 This project analyzes sales, customer behavior, and business performance using the **AdventureWorks** dataset. The analysis includes **data cleaning, sales insights, customer segmentation, and interactive dashboards** to help drive business decisions. 
 
