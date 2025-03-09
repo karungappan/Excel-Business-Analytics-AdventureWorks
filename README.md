@@ -1,6 +1,5 @@
 README - Excel Business Analytics (AdventureWorks)
 
-# AdventureWorks Data Analysis using Excel  
 
 ## Project Description  
 This project analyzes the **AdventureWorks** dataset to extract key business insights on **sales performance, customer behavior, and product trends** using Microsoft Excel. The data was initially **dirty and inconsistent**, requiring extensive cleaning before performing meaningful analysis.  
