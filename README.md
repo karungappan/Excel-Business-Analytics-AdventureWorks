@@ -51,7 +51,6 @@ Before starting the analysis, the raw dataset required extensive cleaning:
 ### **Excel Features Used:**  
 ✔ **PivotTables & PivotCharts** – For interactive sales and customer analysis.  
 ✔ **Conditional Formatting** – Highlighting key trends & anomalies.  
-✔ **Power Query** – Data transformation and cleanup.  
 ✔ **Slicers & Filters** – For dynamic exploration of sales data.  
 
 ---
