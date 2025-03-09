@@ -1,64 +1,76 @@
-# Excel-Business-Analytics-AdventureWorks
+README - Excel Business Analytics (AdventureWorks)
 
-## Project Description
-This project analyzes sales, customer behavior, and business performance using the **AdventureWorks** dataset. The analysis includes **data cleaning, sales insights, customer segmentation, and interactive dashboards** to help drive business decisions. 
+# AdventureWorks Data Analysis using Excel  
 
-## Dataset Overview
-- **Dataset Name:** AdventureWorks  
-- **Source:** Microsoft AdventureWorks database  
-- **Data Includes:**  
-  - **Sales Orders** (Order ID, Date, Amount, etc.)  
-  - **Customers** (Customer ID, Region, Purchase History, etc.)  
-  - **Products** (Product ID, Category, Price, etc.)  
-  - **Employees** (Sales Representatives, Territories, etc.)  
+## Project Description  
+This project analyzes the **AdventureWorks** dataset to extract key business insights on **sales performance, customer behavior, and product trends** using Microsoft Excel. The data was initially **dirty and inconsistent**, requiring extensive cleaning before performing meaningful analysis.  
+ 
+ ---
 
-## Objectives
-- **Perform data cleaning and preparation** to ensure accuracy.  
-- **Analyze sales performance** across different regions, time periods, and products.  
-- **Identify customer behavior trends**, such as purchase frequency and revenue contribution.  
-- **Build interactive Excel dashboards** to visualize key business insights.  
+## Data Cleaning & Preparation  
+Before starting the analysis, the raw dataset required extensive cleaning:  
 
-## Tools & Technologies Used
-- **Microsoft Excel**  
-  - Power Query for data cleaning  
-  - PivotTables & PivotCharts for analysis  
-  - Conditional Formatting for insights  
-  - Slicers for interactive filtering  
+1. **Handled Missing Values:**  
+   - Replaced missing sales amounts using average values where appropriate.  
+   - Removed records with missing customer IDs to avoid incorrect mappings.  
 
-## Key Analysis Techniques
-### Data Cleaning & Preparation
-✔ Handling missing values  
-✔ Removing duplicates  
-✔ Standardizing data formatting  
+2. **Removed Duplicates:**  
+   - Identified and deleted duplicate sales records.  
 
-### Sales Performance Analysis
-✔ Sales revenue trend analysis  
-✔ Profitability by product category  
-✔ Regional sales performance  
+3. **Standardized Formatting:**  
+   - Corrected date formats for consistency.  
+   - Fixed inconsistent text cases (e.g., region names, product categories).  
 
-### Customer Segmentation
-✔ Identifying high-value customers  
-✔ Analyzing repeat purchases  
-✔ Understanding customer demographics  
-
-### Visualization & Reporting
-✔ PivotCharts for trend analysis  
-✔ Dashboards with key business KPIs  
-✔ Dynamic filtering with slicers  
-
-## Project Deliverables
-1. **Cleaned Dataset** – Processed AdventureWorks data for analysis.  
-2. **Sales & Customer Reports** – Key insights into business performance.  
-3. **Excel Dashboard** – Interactive visual reports.  
-4. **Final Report** – Summary of findings & recommendations.  
-
-## How to Use This Project
-1. **Open the Excel file** and explore datasets.  
-2. **Use PivotTables & filters** to analyze different business aspects.  
-3. **Interact with dashboards** using slicers for dynamic insights.  
-4. **Refer to the final report** for a summary of business recommendations.  
-
-## Conclusion
-This project delivers actionable insights on **sales trends, customer behavior, and business growth** for AdventureWorks. It supports **data-driven decision-making** to enhance performance.  
+4. **Resolved Data Inconsistencies:**  
+   - Mapped incorrect region names to correct ones.  
+   - Aligned currency formats across different transaction records.  
 
 ---
+
+## Data Analysis & Insights  
+
+### **1. Sales Performance Analysis**  
+✔ Sales trends over time (monthly, quarterly, yearly).  
+✔ Revenue breakdown by product category & region.  
+✔ Best-selling and least-selling products.  
+
+### **2. Customer Behavior Analysis**  
+✔ High-value customers based on purchase frequency & total spend.  
+✔ Repeat customer trends vs. one-time buyers.  
+✔ Regional customer segmentation.  
+
+### **3. Profitability & Business Trends**  
+✔ Gross margin analysis per product category.  
+✔ Regional sales performance insights.  
+✔ Employee sales performance evaluation.  
+
+---
+
+## Visualization & Reporting  
+
+### **Excel Features Used:**  
+✔ **PivotTables & PivotCharts** – For interactive sales and customer analysis.  
+✔ **Conditional Formatting** – Highlighting key trends & anomalies.  
+✔ **Power Query** – Data transformation and cleanup.  
+✔ **Slicers & Filters** – For dynamic exploration of sales data.  
+
+---
+
+## Project Deliverables  
+1. **Cleaned & Processed Dataset** – Error-free, structured data.  
+2. **Sales & Customer Reports** – Data-driven insights in tabular & graphical form.  
+3. **Excel Dashboard** – Interactive visuals summarizing key trends.  
+4. **Final Report** – Business insights & recommendations based on findings.  
+
+---
+
+## How to Use This Project  
+1. Open the **Excel file** and navigate through cleaned datasets.  
+2. Use **PivotTables & charts** to explore different sales and customer trends.  
+3. Adjust **filters & slicers** to get specific business insights.  
+4. Refer to the **final report** for actionable recommendations.  
+
+---
+
+## Conclusion  
+By cleaning the raw data and analyzing key trends, this project provides valuable insights into **AdventureWorks' sales performance, customer behavior, and business growth opportunities**. The interactive dashboard helps business users make **data-driven decisions** with ease.  
